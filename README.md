@@ -24,7 +24,18 @@ If you find our work and implementation useful for your research, please, cite u
 }
 ```
 
-## 1. Main Results (Section VI-C and VI-D)
+## 1. Setup
+Set up a fresh Python environment using
+```
+python3 -m venv STAR_env
+```
+
+Then install the required packages by running:
+```
+pip install -r requirements.txt
+```
+
+## 2. Main Results (Section VI-C and VI-D)
 
 STAR was tested on the DISC dataset, publicly available [here](https://ieee-dataport.org/documents/disc-dataset-integrated-sensing-and-communication-mmwave-systems), in particular on the `uniform_7subj.zip` subset.
 
@@ -40,7 +51,7 @@ python3 train.py
 By default the `ablation_runs.csv` file contains all the ablation runs reported in the final paper. These can be modified to implement further experiments.
 
 
-## 2. Results in novel environment (Sec VI-E)
+## 3. Results in novel environment (Sec VI-E)
 
 [This folder](https://drive.google.com/drive/u/2/folders/19ev0y4MtivC2RE8QVyxSZmtNYn-rh7yB) contains the additional set of data (to be added to the DISC dataset in the short term)
 To reproduce the results of the new environment, first train the final model as in step 1, and then execute:
