@@ -15,17 +15,11 @@ DATAGEN_PARAMS = {
 
 N_KEPT_BINS = 10
 
-# RAW_DATA_PATH = "./data/raw_data"
-RAW_DATA_PATH = "../sparse_md_recon/data/raw_data"
-# DATA_PATH = "./data/sparse_dataset"
-# DATA_PATH_V2 = "./data/sparse_dataset_V2"
-DATA_PATH_V2 = "../sparse_md_recon/data/sparse_dataset_V2"
-# RAW_REV1_DATA_PATH = "./data/newdata_rev1_raw"
-RAW_REV1_DATA_PATH = "../sparse_md_recon/data/newdata_rev1_raw"
-# REV1_DATA_PATH = "./data/newdata_rev1"
-REV1_DATA_PATH = "./sparse_md_recon/data/newdata_rev1"
-# CNN_DATA_PATH = "./data/cnn_dataset"
-CNN_DATA_PATH = "./sparse_md_recon/data/cnn_dataset"
+RAW_DATA_PATH = "./data/raw_data"
+DATA_PATH_V2 = "./data/sparse_dataset_V2"
+RAW_REV1_DATA_PATH = "./data/newdata_rev1_raw"
+REV1_DATA_PATH = "./data/newdata_rev1"
+CNN_DATA_PATH = "./data/cnn_dataset"
 
 ACTIVITIES = [
     "WALKING",
@@ -47,12 +41,10 @@ SUBJECTS = [
 # ============ TRAINING HYPERPARAMETERS ============
 
 # float in [0, 1], e.g. 0.5 = 50% of the dataset
-# DATASET_SUBSAMPLE_FACTOR = 1
-DATASET_SUBSAMPLE_FACTOR = 0.2
+DATASET_SUBSAMPLE_FACTOR = 1
 
 # percentage of the dataset to use for training, validation and testing
-# SPLIT_PTGS = [0.8, 0.01, 0.19]
-SPLIT_PTGS = [0.8, 0.1, 0.1]
+SPLIT_PTGS = [0.8, 0.01, 0.19]
 
 # random seed for dataset split
 DATASET_SPLIT_SEED = 123
@@ -106,8 +98,8 @@ MODEL_NAME = "Model name here"
 NOTES = """Final ablation runs"""
 
 
-# WANDB_TAG = ["KeepPushing"]
 WANDB_TAG = ["AblationRuns"]
+
 # WANDB_MODE = "online"
 WANDB_MODE = "disabled"
 

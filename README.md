@@ -27,8 +27,10 @@ STAR was tested on the DISC dataset, publicly available [here](https://ieee-data
 
 
 Our results can be reproduced by training STAR from scratch. To do so:
-1. Configure the `ablation_runs.csv` file, by specifying possibly multiple configurations of the hyperparameters.
-2. Train all the models specified in the .csv file by executing the following script:
+
+1. Extract the dataset in the folder `data/raw_data/`
+2. Configure the `ablation_runs.csv` file, by specifying possibly multiple configurations of the hyperparameters.
+3. Train all the models specified in the .csv file by executing the following script:
 ```
 python3 train.py
 ```
