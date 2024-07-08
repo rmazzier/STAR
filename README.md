@@ -1,6 +1,8 @@
 # Attention Refined Unrolling for Sparse Micro-Doppler Reconstruction
 This repository contains the implementation of the experimental results described in: `R. Mazzieri, J. Pegoraro and M. Rossi, "Attention-Refined Unrolling for Sparse Sequential micro-Doppler Reconstruction," in IEEE Journal of Selected Topics in Signal Processing, doi: 10.1109/JSTSP.2024.3408041.` (available [here](https://ieeexplore.ieee.org/abstract/document/10543012)).
 
+All the experiments are implemented in **Python version 3.8.10**.
+
 If you find our work and implementation useful for your research, please, cite us using the following BibTeX:
 ```
 @article{10543012,
@@ -21,6 +23,7 @@ If you find our work and implementation useful for your research, please, cite u
   year={2023}
 }
 ```
+
 ## 1. Main Results (Section VI-C and VI-D)
 
 STAR was tested on the DISC dataset, publicly available [here](https://ieee-dataport.org/documents/disc-dataset-integrated-sensing-and-communication-mmwave-systems), in particular on the `uniform_7subj.zip` subset.
