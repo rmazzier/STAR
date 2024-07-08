@@ -1,7 +1,7 @@
 # Attention Refined Unrolling for Sparse Micro-Doppler Reconstruction
 This repository contains the implementation of the experimental results described in: `R. Mazzieri, J. Pegoraro and M. Rossi, "Attention-Refined Unrolling for Sparse Sequential micro-Doppler Reconstruction," in IEEE Journal of Selected Topics in Signal Processing, doi: 10.1109/JSTSP.2024.3408041.` (available [here](https://ieeexplore.ieee.org/abstract/document/10543012)).
 
-If you find our work and implementation useful for your research, please, cite our work using the following BibTeX:
+If you find our work and implementation useful for your research, please, cite us using the following BibTeX:
 ```
 @article{10543012,
   author={Mazzieri, Riccardo and Pegoraro, Jacopo and Rossi, Michele},
@@ -13,6 +13,13 @@ If you find our work and implementation useful for your research, please, cite o
   pages={1-16},
   keywords={Stars;Sensors;Channel estimation;Compressed sensing;Spectrogram;Real-time systems;Human activity recognition;Joint Communication and Sensing;Micro-Doppler signatures;Sparse Reconstruction;Algorithm Unrolling;Attention;gHuman Activity Recognition},
   doi={10.1109/JSTSP.2024.3408041}}
+
+@article{pegoraro2023disc,
+  title={DISC: a dataset for integrated sensing and communication in mmWave systems},
+  author={Pegoraro, Jacopo and Lacruz, Jesus Omar and Rossi, Michele and Widmer, Joerg},
+  journal={arXiv preprint arXiv:2306.09469},
+  year={2023}
+}
 ```
 ## 1. Main Results (Section VI-C and VI-D)
 
