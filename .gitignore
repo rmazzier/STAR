@@ -1,0 +1,10 @@
+*.ipynb
+__pycache__
+wandb
+data
+models
+results
+sweep.py
+download_sweep.py
+start_agent.py
+example_use_unif.py
